@@ -1,0 +1,98 @@
+
+/* ----- Gestion du style du header ----- */
+
+#logo {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+49,494949+49 */
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 49%, rgba(73,73,73,1) 49%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 49%,rgba(73,73,73,1) 49%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(255,255,255,1) 49%,rgba(73,73,73,1) 49%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#494949',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+#blaco {
+	display: flex;
+	align-content: center;
+}
+
+#liste {
+	text-align: right;
+	color: white;
+}
+
+/* ----- Gestion du style du slider ----- */
+
+.slider p {
+	text-align: center;
+}
+
+.slider img {
+	width: 80%;
+	height: 25vh;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+/* ----- Gestion du style de la partie avec paralaxe ----- */
+
+h1 {
+	text-align: center;
+}
+
+.paralaxe {
+	align-content: center;
+}
+
+.moto1 {
+	background-image: url('img/team/1.jpg');
+	background-size: 100%;
+	width: 72%;
+	height: 200px;
+	align-content: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.moto2 {
+	background-image: url('img/team/2.jpg');
+	background-size: 100%;
+	width: 72%;
+	height: 200px;
+	align-content: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.moto3 {
+	background-image: url('img/team/3.jpg');
+	background-size: 100%;
+	width: 72%;
+	height: 200px;
+	align-content: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.moto4 {
+	background-image: url('img/team/4.jpg');
+	background-size: 100%;
+	width: 72%;
+	height: 200px;
+	align-content: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+/* ----- Gestion du style du texte de la section "Pour nous connaitre plus en détail" ----- */
+
+.galaco {
+	text-align: center;
+}
+
+@media all and (min-width: 720px) {
+	.slider {
+		width: 80%;
+	}
+}
